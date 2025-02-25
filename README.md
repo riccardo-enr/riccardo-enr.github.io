@@ -6,5 +6,8 @@ This repository is a simple example of how to create a Github Pages repository.
   <source src="media/Mission.mp4" type="video/mp4">
 </video>
 
+
+
 ## RoboticsXR
-[RoboticsXR Description](RoboticsXR/RoboticsXR.md)
+
+[RoboticsXR](RoboticsXR/RoboticsXR.md)
