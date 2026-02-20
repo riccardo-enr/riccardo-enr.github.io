@@ -2,4 +2,64 @@
 title: "Publications"
 ---
 
-*Coming soon.*
+*Auto-generated from [Google Scholar](https://scholar.google.com/citations?user=dBavvs0AAAAJ&hl=en).*
+
+## 2025
+
+### [Comparison of NMPC and GPU-Parallelized MPPI for Real-Time UAV Control on Embedded Hardware](https://www.mdpi.com/2076-3417/15/16/9114)
+
+**Riccardo Enrico and Mauro Mancini and Elisa Capello**
+
+*Applied Sciences*
+
+Citations: 2
+
+::: {.callout-note collapse='true' title='Abstract'}
+Unmanned Aerial Vehicles (UAVs) operating in complex environments require advanced control strategies beyond traditional linear approaches. This work presents a comprehensive comparative analysis of Nonlinear Model Predictive Control (NMPC) and Model Predictive Path Integral (MPPI) control for UAV trajectory tracking, with an emphasis on real-time implementation feasibility on embedded hardware. A modular ROS 2 framework enables runtime controller selection using CasADi/Acados for NMPC and JAX for MPPI implementations. Processor-in-the-Loop experiments on NVIDIA Jetson Orin Nano hardware evaluate computational performance under realistic resource constraints. Results demonstrate that MPPI achieves superior tracking performance, with an 18.6% improvement in overall RMSE compared to NMPC (0.8480 m to 0.6897 m) for trajectory following. Both controllers achieve real-time performance on embedded hardware, with GPU acceleration proving critical for MPPI success, enabling a 17.63 ms median computation time versus 31.02 ms for CPU-only execution. Systematic parameter analysis reveals optimal MPPI configurations of 40 horizon steps and 800–1250 samples for balancing performance with computational constraints imposed by the 50 Hz (20 ms) control frequency inherent to PX4 hardware compliance. This study validates that mainstream computational frameworks can deliver satisfactory real-time control performance on standard robotics hardware, significantly enhancing accessibility for practical UAV deployment while providing clear guidelines for control strategy selection in resource-constrained …
+:::
+
+### [Real-Time Evaluation of Inner-Loop Controllers with NMPC-Based Outer-Loop for UAV](https://ieeexplore.ieee.org/abstract/document/11114551/)
+
+**Riccardo Enrico and Stefano Primatesta and Mauro Mancini and Elisa Capello**
+
+*2025 IEEE 12th International Workshop on Metrology for AeroSpace (MetroAeroSpace)*
+
+::: {.callout-note collapse='true' title='Abstract'}
+This paper investigates the application of control algorithms for Unmanned Aerial Vehicles (UAVs), focusing on the real-time integration of different inner-loop controllers. A Nonlinear Model Predictive Controller (NMPC) is considered as an outer-loop position controller, while the inner-loop controllers considered are a Geometric controller (with and without L1 augmentation), a Model Reference Adaptive Controller (MRAC), and a Sliding Mode controller. The study focuses on comparing the trajectory-tracking performance of the different inner-loop controllers and evaluating the computational efficiency of the NMPC. These controllers are implemented as ROS 2 nodes to evaluate their suitability for hardware deployment. A performance evaluation of the inner-loop controllers is conducted through Gazebo simulations, evaluating the Root Mean Square Error (RMSE) with respect to a reference trajectory as a merit …
+:::
+
+### [Customized Design and Preliminary Testing of a Precision Spraying Drone for Vineyard Applications](https://ieeexplore.ieee.org/abstract/document/11007801/)
+
+**Stefano Primatesta and Riccardo Enrico and Manuel Carreño Ruiz and Nicoletta Bloise and Giorgio Guglieri**
+
+*2025 International Conference on Unmanned Aircraft Systems (ICUAS)*
+
+::: {.callout-note collapse='true' title='Abstract'}
+Unmanned Aircraft Systems (UAS) for spraying plant protection products are an emerging technology aimed at enhancing the efficiency and sustainability of agricultural production. This paper presents the design and development of an innovative UAS-based spraying system for targeted and precise spraying applications in vineyards. The proposed solution introduces several innovations compared to state-of-the-art technologies. Nozzle positioning is optimized through Computational Fluid Dynamics simulations and wind tunnel tests to improve the control of sprayed droplets. The system reduces the sloshing effect, i.e. the oscillation of the onboard liquid, through a tank with internal baffles and with the adoption of a sloshing-aware control strategy. Precision spraying is further enhanced by a methodology for vineyard row tracking and following. Although the system is under development, this article outlines the …
+:::
+
+## 2024
+
+### [Computer vision-based autonomous navigation for uav vineyard row following](https://ieeexplore.ieee.org/abstract/document/10948792/)
+
+**Riccardo Enrico and Petre Ricioppo and Mauro Mancini and Stefano Primatesta**
+
+*2024 IEEE International Workshop on Metrology for Agriculture and Forestry (MetroAgriFor)*
+
+Citations: 3
+
+::: {.callout-note collapse='true' title='Abstract'}
+This study investigates the implementation of a Robotics operating system (ROS) enabled Unmanned Aerial Vehicle (UAV) simulation for vineyard row following. The primary motivation stems from the imprecision of GPS positioning in agri-cultural areas, where high accuracy is crucial for tasks such as crop irrigation. The proposed approach utilizes a computer vision algorithm to accurately determine the vineyard row position and, therefore, adjust the UAV navigation. This algorithm, combined with ROS, is tested on a PX4-enabled UAV. The findings indicate that our method offers significantly improved precision over the blind positioning obtained through a Graphical user interface (GUI) based ground control system which does not take into account the position of the vineyard row with respect to the UAV but only the end position manually selected by the user.
+:::
+
+## 2023
+
+### [The development of ROS-based offboard algorithms for autonomous UAVs intended for Mars exploration](https://webthesis.biblio.polito.it/26806/?template=default)
+
+**Riccardo Enrico**
+
+Citations: 1
+
+::: {.callout-note collapse='true' title='Abstract'}
+Unmanned Aerial Vehicles (UAVs) have received increased interest in the field of mobile robotics. Recently, research in the field of UAVs is also studying their use in space applications and planetary exploration. An example is Ingenuity, the first drone on Mars developed by NASA.    This is because a UAV offers a wider area of operation with respect to an unmanned ground vehicle (UGV), and it provides the mission with a higher resolution regarding images if compared to a satellite or an orbiter.    Moreover, Software in the loop (SITL) simulation of such vehicles is preferred during the development phase since it enables to evaluate the algorithms implemented without making use of a real vehicle and without the risk of damaging the hardware.    This thesis proposes a set of algorithms related to UAV-based planetary exploration. Such software implementations range from the more straightforward functionalities, related to the navigation and off-board control of the drone to more complex ones which also incorporate on-board sensors, such as the available ventral camera, to provide imagery data of an object by encircling it through a circular trajectory. Additionally, an area coverage algorithm is used to map an area of the terrain by following a grid sweep path, while providing images of the underlying terrain.    Each of these algorithms is composed of a path generation functionality and subsequent, through the usage of a PID controller, trajectory tracking capability.    All the proposed algorithms have been developed with Python. The drone off-board control software implementation has been developed through the Robotics operating system (ROS …
+:::
