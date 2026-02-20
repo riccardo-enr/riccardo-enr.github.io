@@ -20,8 +20,4 @@ website:
         aria-label: GitHub
 
 format:
-  html:
-    theme:
-      dark: [cosmo, theme-dark.scss]
-      light: [cosmo, theme-light.scss]
-    toc: true
+  ric-theme-html: default
