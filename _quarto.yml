@@ -20,6 +20,6 @@ website:
 format:
   html:
     theme:
-      light: [cosmo, theme-light.scss]
       dark: [cosmo, theme-dark.scss]
+      light: [cosmo, theme-light.scss]
     toc: true
