@@ -1,10 +1,10 @@
 ---
-title: "Riccardo Enrici"
+title: "Riccardo Enrico"
 ---
 
 ## About
 
-I am a researcher working on autonomous robotics, with a focus on control, exploration, and perception for unmanned aerial vehicles. My work spans model-predictive control, information-driven planning, and extended reality frameworks for testing robotic systems.
+I am a PhD Student at Politecnico di Torino, Italy working on autonomous robotics, with a focus on control of unmanned aerial vehicles. My work spans model-predictive control, information-driven planning, and extended reality frameworks for testing robotic systems.
 
 ## Research Areas
 

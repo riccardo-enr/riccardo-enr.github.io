@@ -3,7 +3,7 @@ project:
   output-dir: _site
 
 website:
-  title: "Riccardo Enrici"
+  title: "Riccardo Enrico"
   navbar:
     left:
       - href: index.qmd
