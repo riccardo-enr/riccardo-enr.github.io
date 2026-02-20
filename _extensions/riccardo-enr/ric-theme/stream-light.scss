@@ -1,0 +1,46 @@
+/*-- scss:defaults --*/
+
+$charcoal-blue:  #2b3a4e;
+$blue-slate:     #4a5a75;
+$autumn-leaf:    #e56b25;
+$sandy-brown:    #f2a365;
+$gunmetal:       #3b3b3b;
+$white:          #ffffff;
+
+$body-bg:           $white;
+$body-color:        $gunmetal;
+$link-color:        $autumn-leaf;
+$navbar-bg:         $charcoal-blue;
+$navbar-fg:         $white;
+$primary:           $autumn-leaf;
+$secondary:         $blue-slate;
+
+/*-- scss:rules --*/
+
+.navbar .navbar-brand {
+  color: $white !important;
+}
+
+.navbar .nav-link {
+  color: rgba($white, 0.85) !important;
+  &:hover {
+    color: $sandy-brown !important;
+  }
+}
+
+.navbar .navbar-toggler-icon {
+  filter: invert(1);
+}
+
+a:hover {
+  color: darken($autumn-leaf, 10%);
+}
+
+.btn-primary {
+  background-color: $autumn-leaf;
+  border-color: $autumn-leaf;
+  &:hover {
+    background-color: darken($autumn-leaf, 10%);
+    border-color: darken($autumn-leaf, 10%);
+  }
+}

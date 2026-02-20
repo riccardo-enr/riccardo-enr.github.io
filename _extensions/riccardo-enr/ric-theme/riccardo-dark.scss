@@ -1,20 +1,22 @@
 /*-- scss:defaults --*/
 
-$white:    #ffffff;
-$black:    #05232f;
-$red:      #ad1919;
-$yellow:   #ffd400;
+$egyptian-blue:  #38369a;
+$bronze-spice:   #cc5803;
+$soft-peach:     #ecce8e;
+$grey-olive:     #818d92;
+$ink-black:      #011627;
+$white:          #ffffff;
 
-$body-bg:           $black;
+$body-bg:           $ink-black;
 $body-color:        rgba($white, 0.9);
-$link-color:        $yellow;
-$navbar-bg:         darken($black, 5%);
+$link-color:        $soft-peach;
+$navbar-bg:         darken($ink-black, 3%);
 $navbar-fg:         $white;
-$primary:           $red;
-$secondary:         $yellow;
+$primary:           $bronze-spice;
+$secondary:         $soft-peach;
 
-$card-bg:           lighten($black, 5%);
-$code-bg:           lighten($black, 8%);
+$card-bg:           lighten($ink-black, 5%);
+$code-bg:           lighten($ink-black, 8%);
 
 /*-- scss:rules --*/
 
@@ -25,21 +27,21 @@ $code-bg:           lighten($black, 8%);
 .navbar .nav-link {
   color: rgba($white, 0.85) !important;
   &:hover {
-    color: $yellow !important;
+    color: $soft-peach !important;
   }
 }
 
 a:hover {
-  color: lighten($yellow, 10%);
+  color: lighten($soft-peach, 10%);
 }
 
 .btn-primary {
-  background-color: $red;
-  border-color: $red;
+  background-color: $bronze-spice;
+  border-color: $bronze-spice;
   color: $white;
   &:hover {
-    background-color: lighten($red, 8%);
-    border-color: lighten($red, 8%);
+    background-color: lighten($bronze-spice, 8%);
+    border-color: lighten($bronze-spice, 8%);
   }
 }
 

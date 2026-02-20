@@ -1,17 +1,19 @@
 /*-- scss:defaults --*/
 
-$white:    #ffffff;
-$black:    #05232f;
-$red:      #ad1919;
-$yellow:   #ffd400;
+$egyptian-blue:  #38369a;
+$bronze-spice:   #cc5803;
+$soft-peach:     #ecce8e;
+$grey-olive:     #818d92;
+$ink-black:      #011627;
+$white:          #ffffff;
 
 $body-bg:           $white;
-$body-color:        $black;
-$link-color:        $red;
-$navbar-bg:         $black;
+$body-color:        $ink-black;
+$link-color:        $bronze-spice;
+$navbar-bg:         $egyptian-blue;
 $navbar-fg:         $white;
-$primary:           $red;
-$secondary:         $black;
+$primary:           $bronze-spice;
+$secondary:         $egyptian-blue;
 
 /*-- scss:rules --*/
 
@@ -22,7 +24,7 @@ $secondary:         $black;
 .navbar .nav-link {
   color: rgba($white, 0.85) !important;
   &:hover {
-    color: $yellow !important;
+    color: $soft-peach !important;
   }
 }
 
@@ -31,14 +33,14 @@ $secondary:         $black;
 }
 
 a:hover {
-  color: darken($red, 10%);
+  color: darken($bronze-spice, 10%);
 }
 
 .btn-primary {
-  background-color: $red;
-  border-color: $red;
+  background-color: $bronze-spice;
+  border-color: $bronze-spice;
   &:hover {
-    background-color: darken($red, 10%);
-    border-color: darken($red, 10%);
+    background-color: darken($bronze-spice, 10%);
+    border-color: darken($bronze-spice, 10%);
   }
 }

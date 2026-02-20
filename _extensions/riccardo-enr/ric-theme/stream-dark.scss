@@ -1,0 +1,50 @@
+/*-- scss:defaults --*/
+
+$charcoal-blue:  #2b3a4e;
+$blue-slate:     #4a5a75;
+$autumn-leaf:    #e56b25;
+$sandy-brown:    #f2a365;
+$gunmetal:       #3b3b3b;
+$white:          #ffffff;
+
+$body-bg:           $charcoal-blue;
+$body-color:        rgba($white, 0.9);
+$link-color:        $sandy-brown;
+$navbar-bg:         darken($charcoal-blue, 5%);
+$navbar-fg:         $white;
+$primary:           $autumn-leaf;
+$secondary:         $sandy-brown;
+
+$card-bg:           lighten($charcoal-blue, 5%);
+$code-bg:           lighten($charcoal-blue, 8%);
+
+/*-- scss:rules --*/
+
+.navbar .navbar-brand {
+  color: $white !important;
+}
+
+.navbar .nav-link {
+  color: rgba($white, 0.85) !important;
+  &:hover {
+    color: $sandy-brown !important;
+  }
+}
+
+a:hover {
+  color: lighten($sandy-brown, 10%);
+}
+
+.btn-primary {
+  background-color: $autumn-leaf;
+  border-color: $autumn-leaf;
+  color: $white;
+  &:hover {
+    background-color: lighten($autumn-leaf, 8%);
+    border-color: lighten($autumn-leaf, 8%);
+  }
+}
+
+table {
+  color: rgba($white, 0.9);
+}
