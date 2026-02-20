@@ -1,0 +1,25 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Riccardo Enrico"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: projects/index.qmd
+        text: Projects
+      - href: publications/index.qmd
+        text: Publications
+    right:
+      - icon: github
+        href: https://github.com/riccardo-enr
+        aria-label: GitHub
+
+format:
+  html:
+    theme:
+      dark: [cosmo, theme-dark.scss]
+      light: [cosmo, theme-light.scss]
+    toc: true

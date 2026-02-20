@@ -1,0 +1,16 @@
+---
+title: "CUDA-MPPI"
+---
+
+## Overview
+
+A high-performance CUDA backend for Model Predictive Path Integral control. Provides massively parallel trajectory sampling on NVIDIA GPUs for real-time nonlinear control.
+
+## Tech Stack
+
+- **Languages:** CUDA, C++
+- **Methods:** MPPI, parallel trajectory sampling
+
+## Documentation
+
+[Documentation](https://riccardo-enr.github.io/cuda-mppi/){.btn .btn-primary}

@@ -1,0 +1,29 @@
+---
+title: "Projects"
+---
+
+## Control {#control}
+
+| Project | Description | Links |
+|---------|-------------|-------|
+| [UAV Control](control/uav-control.qmd) | MPPI, NMPC, Geometric, and SMC controllers for PX4-based UAVs | [GitHub](https://github.com/riccardo-enr/uav_control) |
+| [JAX-MPPI](control/jax-mppi.qmd) | JAX-native MPPI variants with autotuning | [Docs](https://riccardo-enr.github.io/jax_mppi/) |
+| [CUDA-MPPI](control/cuda-mppi.qmd) | High-performance CUDA backend for MPPI | [Docs](https://riccardo-enr.github.io/cuda-mppi/) |
+
+## Mapping {#mapping}
+
+| Project | Description | Links |
+|---------|-------------|-------|
+| [FSMI-RLE](mapping/fsmi-rle.qmd) | Shannon mutual information on OctoMaps with run-length encoding | [Docs](https://riccardo-enr.github.io/fsmi-rle/) |
+
+## Planning {#planning}
+
+| Project | Description | Links |
+|---------|-------------|-------|
+| [FSMI-RLE ROS 2](planning/fsmi-rle-ros2.qmd) | Next-best-view planner integrating FSMI-RLE into ROS 2 | [GitHub](https://github.com/riccardo-enr/fsmi-rle-ros2) |
+
+## Other {#other}
+
+| Project | Description |
+|---------|-------------|
+| [RoboticsXR](other/roboticsxr.qmd) | Extended reality framework with YOLOv8 detection and ROS 2 integration |

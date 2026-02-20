@@ -1,0 +1,41 @@
+---
+title: "Riccardo Enrico"
+---
+
+## About
+
+I am a PhD Student at Politecnico di Torino, Italy working on autonomous robotics, with a focus on control of unmanned aerial vehicles. My work spans model-predictive control, information-driven planning, and extended reality frameworks for testing robotic systems.
+
+## Research Areas
+
+::: {.grid}
+
+::: {.g-col-6}
+### Control
+Nonlinear and sampling-based controllers for UAVs — MPPI, NMPC, geometric, and sliding-mode approaches with GPU-accelerated backends.
+
+[View projects &rarr;](projects/index.qmd#control)
+:::
+
+::: {.g-col-6}
+### Mapping
+Information-theoretic exploration using Shannon mutual information on volumetric maps with efficient run-length encoding.
+
+[View projects &rarr;](projects/index.qmd#mapping)
+:::
+
+::: {.g-col-6}
+### Planning
+Next-best-view planners integrating information-gain metrics into ROS 2 navigation stacks.
+
+[View projects &rarr;](projects/index.qmd#planning)
+:::
+
+::: {.g-col-6}
+### Other
+Extended reality frameworks for robot testing, fusing real-world motion with synthetic visual data.
+
+[View projects &rarr;](projects/index.qmd#other)
+:::
+
+:::

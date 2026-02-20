@@ -1,0 +1,17 @@
+---
+title: "UAV Control"
+---
+
+## Overview
+
+A collection of nonlinear controllers for PX4-based unmanned aerial vehicles, including Model Predictive Path Integral (MPPI), Nonlinear Model Predictive Control (NMPC), Geometric Control, and Sliding Mode Control (SMC).
+
+## Tech Stack
+
+- **Languages:** C++, Python
+- **Frameworks:** PX4, ROS 2
+- **Methods:** MPPI, NMPC, Geometric Control, SMC
+
+## Repository
+
+[riccardo-enr/uav_control](https://github.com/riccardo-enr/uav_control){.btn .btn-primary}

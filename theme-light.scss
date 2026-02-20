@@ -1,0 +1,44 @@
+/*-- scss:defaults --*/
+
+$white:    #ffffff;
+$black:    #05232f;
+$red:      #ad1919;
+$yellow:   #ffd400;
+
+$body-bg:           $white;
+$body-color:        $black;
+$link-color:        $red;
+$navbar-bg:         $black;
+$navbar-fg:         $white;
+$primary:           $red;
+$secondary:         $black;
+
+/*-- scss:rules --*/
+
+.navbar .navbar-brand {
+  color: $white !important;
+}
+
+.navbar .nav-link {
+  color: rgba($white, 0.85) !important;
+  &:hover {
+    color: $yellow !important;
+  }
+}
+
+.navbar .navbar-toggler-icon {
+  filter: invert(1);
+}
+
+a:hover {
+  color: darken($red, 10%);
+}
+
+.btn-primary {
+  background-color: $red;
+  border-color: $red;
+  &:hover {
+    background-color: darken($red, 10%);
+    border-color: darken($red, 10%);
+  }
+}
