@@ -1,0 +1,55 @@
+---
+title: "Tools"
+---
+
+## Software
+
+::: {.grid}
+
+::: {.g-col-6}
+### Languages
+Python, C++, MATLAB — core languages for control, simulation, and data analysis.
+:::
+
+::: {.g-col-6}
+### Frameworks
+ROS 2, Isaac Sim, PyTorch — robotics middleware, simulation, and learning pipelines.
+:::
+
+::: {.g-col-6}
+### IDEs & Editors
+VS Code, Neovim — primary development environments with remote and embedded workflows.
+:::
+
+::: {.g-col-6}
+### DevOps
+Docker, Git, GitHub Actions — containerised builds, version control, and CI/CD.
+:::
+
+:::
+
+## Hardware
+
+::: {.grid}
+
+::: {.g-col-6}
+### Drones
+Custom quadrotors and off-the-shelf platforms for autonomous flight experiments.
+:::
+
+::: {.g-col-6}
+### Sensors
+LiDAR, depth cameras, IMUs — perception stacks for mapping and state estimation.
+:::
+
+::: {.g-col-6}
+### Compute
+NVIDIA Jetson, workstation GPUs — onboard and offboard compute for real-time control.
+:::
+
+::: {.g-col-6}
+### Prototyping
+3D printing, PCB design — rapid iteration on mechanical and electronic components.
+:::
+
+:::
