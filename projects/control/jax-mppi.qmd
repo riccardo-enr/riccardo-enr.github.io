@@ -12,6 +12,6 @@ A JAX-native implementation of Model Predictive Path Integral (MPPI) control var
 - **Framework:** JAX
 - **Methods:** MPPI variants, autotuning
 
-## Repository
+## Documentation
 
-[riccardo-enr/jax_mppi](https://github.com/riccardo-enr/jax_mppi){.btn .btn-primary}
+[Documentation](https://riccardo-enr.github.io/jax_mppi/){.btn .btn-primary}

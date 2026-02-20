@@ -11,6 +11,6 @@ A high-performance CUDA backend for Model Predictive Path Integral control. Prov
 - **Languages:** CUDA, C++
 - **Methods:** MPPI, parallel trajectory sampling
 
-## Repository
+## Documentation
 
-[riccardo-enr/cuda-mppi](https://github.com/riccardo-enr/cuda-mppi){.btn .btn-primary}
+[Documentation](https://riccardo-enr.github.io/cuda-mppi/){.btn .btn-primary}

@@ -12,6 +12,6 @@ Fast Shannon Mutual Information computation on OctoMap volumetric representation
 - **Libraries:** OctoMap
 - **Methods:** Shannon mutual information, run-length encoding
 
-## Repository
+## Documentation
 
-[riccardo-enr/fsmi-rle](https://github.com/riccardo-enr/fsmi-rle){.btn .btn-primary}
+[Documentation](https://riccardo-enr.github.io/fsmi-rle/){.btn .btn-primary}
