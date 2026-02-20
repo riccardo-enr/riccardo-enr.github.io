@@ -1,0 +1,17 @@
+---
+title: "JAX-MPPI"
+---
+
+## Overview
+
+A JAX-native implementation of Model Predictive Path Integral (MPPI) control variants with built-in autotuning capabilities. Leverages JAX's JIT compilation and automatic differentiation for efficient GPU-accelerated trajectory optimization.
+
+## Tech Stack
+
+- **Language:** Python
+- **Framework:** JAX
+- **Methods:** MPPI variants, autotuning
+
+## Repository
+
+[riccardo-enr/jax_mppi](https://github.com/riccardo-enr/jax_mppi){.btn .btn-primary}

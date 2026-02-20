@@ -1,0 +1,18 @@
+---
+title: "FSMI-RLE ROS 2"
+---
+
+## Overview
+
+A next-best-view planner that integrates FSMI-RLE information-gain metrics into the ROS 2 navigation stack. Enables autonomous exploration by selecting viewpoints that maximize expected map information.
+
+## Tech Stack
+
+- **Languages:** C++, Python
+- **Frameworks:** ROS 2
+- **Libraries:** OctoMap, FSMI-RLE
+- **Methods:** Next-best-view planning, information-driven exploration
+
+## Repository
+
+[riccardo-enr/fsmi-rle-ros2](https://github.com/riccardo-enr/fsmi-rle-ros2){.btn .btn-primary}

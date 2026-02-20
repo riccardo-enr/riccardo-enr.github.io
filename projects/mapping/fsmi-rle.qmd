@@ -1,0 +1,17 @@
+---
+title: "FSMI-RLE"
+---
+
+## Overview
+
+Fast Shannon Mutual Information computation on OctoMap volumetric representations using Run-Length Encoding (RLE) for efficient information-theoretic exploration. Computes expected information gain for candidate sensor poses to guide autonomous exploration.
+
+## Tech Stack
+
+- **Languages:** C++
+- **Libraries:** OctoMap
+- **Methods:** Shannon mutual information, run-length encoding
+
+## Repository
+
+[riccardo-enr/fsmi-rle](https://github.com/riccardo-enr/fsmi-rle){.btn .btn-primary}
